@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+:root {
+    --main-bg-color: #c6f0f4;
+    --main-font: "Open Sans";
+    --main-font-color: black;
+    --dark-grey: #a9a9a9;
+}
+
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    font-family: var(--main-font);
+    background: var(--main-bg-color);
+    color: var(--main-font-color);
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.hacker {
+    background: white;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.hacker:hover {
+    transition: 0.2s;
+    -moz-box-shadow: #a9a9a9 3px 3px 5px;
+    -webkit-box-shadow: #a9a9a9 3px 3px 5px;
+    box-shadow: #a9a9a9 3px 3px 5px;
+}
+
+img {
+    border-radius: 15px;
+    width: 5vw;
+}
